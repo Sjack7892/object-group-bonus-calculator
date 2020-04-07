@@ -49,18 +49,10 @@ function employeeBonus(person) {
     totalCompensation: (person.annualSalary),
     totalBonus: 1,
   };
-  // console.log(newObject)
-
-  // check a persons rating
-
-  // check a persons id
-
-  // check 
-
-  //return
+ 
 }
 console.log(employees[4].name);
-// console.log(employeeBonus(employees[4]));
+
 
 let array = [];
 
@@ -102,19 +94,5 @@ function bonusCalculator() {
 bonusCalculator();
 
 
-// function checkPenguins(allPenguins, maxHeight) {
-//     let allMatchingPenguins = [];
-//     // penguin is the same as saying allPenguins[i] in a traditional for loop
-//     for (let penguin of allPenguins) {
-//         console.log(penguin);
-//         if (penguin.isCute && penguin.size < maxHeight) {
-//             console.log(`It's cute!`)
-//             console.log(`It's smaller!`)
-//             //add current penguin into allMatchingPenguins
-//             allMatchingPenguins.push(penguin)
-//         }
-//     }
-//     return allMatchingPenguins;
-// } // end function checkPenguins
 
 
